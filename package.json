@@ -1,0 +1,29 @@
+{
+  "name": "gulp-choose-min",
+  "version": "0.0.1",
+  "description": "Gulp plugin for switching out files in the stream for minified versions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gabepaez/gulp-choose-min"
+  },
+  "keywords": [
+    "gulpplugin",
+    "min",
+    "minified",
+    "gulp"
+  ],
+  "author": "Gabe Paez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabepaez/gulp-choose-min/issues"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "strip-bom": "^1.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "tape": "~2.3"
+  }
+}
